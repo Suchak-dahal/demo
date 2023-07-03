@@ -1,0 +1,32 @@
+.gallery {
+    display: flex;
+    gap: 4px;
+}
+.card{
+    position:relative;
+    left:0px;
+    border-radius: 4px;
+    padding:8px;
+    height: 750px;;
+    background-color: white;
+    transition: 0.4s ease-in-out;
+    flex:1px;
+
+}
+.card:nth-child(1){
+    background-color: grey;
+}
+.card:nth-child(2){
+    background-color:gold;
+}
+.card:nth-child(3){
+    background-color: grey;
+}
+.card:nth-child(4){
+    background-color:gold;
+}
+.card:hover{
+    flex:3;
+    font-weight: bold;
+    cursor: pointer;
+}
